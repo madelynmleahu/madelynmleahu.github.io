@@ -4,13 +4,15 @@ Typography
 @font-face { font-family: "Neon 80s"; src: url('../font/Neon.ttf'); }
 @font-face { font-family: "Streamster"; src: url('../font/Streamster.ttf'); }
 @font-face { font-family: "SFAlienEncounters"; src: url('../font/SFAlienEncounters.ttf'); }
+@font-face { font-family: "SFAlienEncounters-Italic"; src: url('../font/SFAlienEncounters-Italic.ttf'); }
+@font-face { font-family: "Lazer84"; src: url('../font/Lazer84.ttf'); }
 
 body, button, input, select, textarea {
 	color: #00fff385;
 	font-family: "Neon 80s", sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
-	font-size-adjust: 0.5;
+	text-shadow: 0 0 6px #30b5a980;
 }
 
 p {
@@ -18,22 +20,15 @@ p {
 	margin-bottom: 1.5em;
 }
 
-b,
-strong {
-	font-weight: bold;
-}
-
 h1 {
 	font-size: 2em;
 	line-height: 1.25;
-	font-weight: bold;
 
 }
 
 h2 {
 	font-size: 1.6em;
 	line-height: 1.2;
-	font-weight: bold;
 }
 
 h3 {
@@ -60,4 +55,12 @@ a:hover {
 .name2 {
 	font-family: "SFAlienEncounters";
 }
+
+.slogan {
+	font-family: "SFAlienEncounters-Italic";
+}
+.nav-menu {
+	font-family: "SFAlienEncounters-Italic";
+}
+
 /*TYPOGRAPHY GLITCH EFFECT */
