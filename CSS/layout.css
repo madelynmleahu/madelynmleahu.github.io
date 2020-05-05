@@ -24,3 +24,7 @@ body {
 .content {
     padding: 2em;
 }
+
+main, footer {
+  padding: 100px;
+}
