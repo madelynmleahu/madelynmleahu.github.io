@@ -5,7 +5,6 @@ Main Navigation
 .main-navigation {
 	clear: both;
 	display: block;
-	font-family: sans-serif;
 	font-size: 1em;
 }
 
@@ -128,7 +127,6 @@ Main Navigation
 	z-index: 100;
 	bottom: 1em;
 	left: 1em;
-	font-family: sans-serif;
 	font-size: 1em;
 	text-transform: uppercase;
 	background-color: #000;
@@ -289,7 +287,6 @@ Main Navigation
 
     .dropdown-toggle:hover, .dropdown-toggle:focus {
         background-color: inherit;
-        outline: solid 1px #b3b3b3;
     }
 
 	.dropdown-toggle::after {
