@@ -1,3 +1,12 @@
 /*--------------------------------------------------------------
 Body Styles
 --------------------------------------------------------------*/
+
+li::marker {
+  content: "\003E";
+  animation: blinkingText 1s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: #000;}
+    100%{   color: transparent;}
