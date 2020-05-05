@@ -7,10 +7,11 @@ input,
 select,
 textarea {
 	color: orange;
-	font-family: serif;
+	font-family: "Neon 80s", sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 }
+ @font-face { font-family: "Neon 80s"; src: url('../font/Neon.ttf');
 
 body,
 caption,
@@ -126,11 +127,13 @@ big {
 h1 {
 	font-size: 2em;
 	line-height: 1.25;
+	font-weight: bold;
 }
 
 h2 {
 	font-size: 1.6em;
 	line-height: 1.2;
+	font-weight: bold;
 }
 
 h3 {
@@ -142,3 +145,5 @@ h4 {
 	font-size: 1.2em;
 	line-height: 1;
 }
+
+/*GLITCH EFFECT */
