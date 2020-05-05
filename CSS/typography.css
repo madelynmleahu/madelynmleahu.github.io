@@ -2,10 +2,10 @@
 Typography
 --------------------------------------------------------------*/
 @font-face { font-family: "Neon 80s"; src: url('../font/Neon.ttf'); }
-@font-face { font-family: "Streamster"; src: url('Streamster.ttf'); }
+@font-face { font-family: "Streamster"; src: url('../font/Streamster.ttf'); }
 
 body, button, input, select, textarea {
-	color: orange;
+	color: #00fff385;
 	font-family: "Neon 80s", sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
@@ -45,4 +45,14 @@ h4 {
 	line-height: 1;
 }
 
+a, a:hover {
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+}
+
+.name {
+	font-family: "Streamster";
+}
 /*TYPOGRAPHY GLITCH EFFECT */

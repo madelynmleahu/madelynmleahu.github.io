@@ -35,7 +35,3 @@ Header styles minus menu
 .site-title a {
     text-decoration: none;
 }
-
-.site-title a:hover {
-    text-decoration: underline;
-}
