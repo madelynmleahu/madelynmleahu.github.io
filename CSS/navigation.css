@@ -30,13 +30,14 @@ Main Navigation
 	padding: 0.8em 1em;
 	text-decoration: none;
 	line-height: 1.6em;
-	color: white;
+	color: hotpink;
 }
 
 .main-navigation a:hover,
 .main-navigation a:focus {
 	background: #fff;
-	color: #000;
+	color: white;
+	text-decoration: none;
 }
 
 .main-navigation a,
@@ -147,11 +148,6 @@ Main Navigation
 }
 
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-	text-decoration: underline;
-}
-
 @media screen and (min-width: 50em) {
 	.menu-toggle {
 		display: none;
@@ -248,8 +244,8 @@ Main Navigation
 	.main-navigation a:focus {
 		background: transparent;
 		color: #333;
-		text-decoration: underline;
-		outline: solid 1px #b3b3b3;
+		text-decoration: none;
+		/* outline: solid 1px hotpink; */
 	}
 
     .main-navigation li li a {

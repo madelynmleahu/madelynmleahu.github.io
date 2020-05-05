@@ -52,6 +52,7 @@ template {
 
 a {
 	background-color: transparent;
+	color: hotpink;
 }
 
 a:active,
