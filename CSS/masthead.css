@@ -3,7 +3,7 @@ Header styles minus menu
 --------------------------------------------------------------*/
 
 .masthead {
-    background: rgba(0, 232, 255, 0.2);
+    background: rgba(255, 0, 212, 0.21);
 }
 
 @media screen and (min-width: 50em) {
