@@ -1,11 +1,11 @@
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
-@font-face { font-family: "Neon 80s"; src: url('../font/Neon.ttf'); }
-@font-face { font-family: "Streamster"; src: url('../font/Streamster.ttf'); }
-@font-face { font-family: "SFAlienEncounters"; src: url('../font/SFAlienEncounters.ttf'); }
-@font-face { font-family: "SFAlienEncounters-Italic"; src: url('../font/SFAlienEncounters-Italic.ttf'); }
-@font-face { font-family: "Lazer84"; src: url('../font/Lazer84.ttf'); }
+@font-face { font-family: "Neon 80s"; src: url('FONTS/Neon.ttf'); }
+@font-face { font-family: "Streamster"; src: url('FONTS/Streamster.ttf'); }
+@font-face { font-family: "SFAlienEncounters"; src: url('FONTS/SFAlienEncounters.ttf'); }
+@font-face { font-family: "SFAlienEncounters-Italic"; src: url('FONTS/SFAlienEncounters-Italic.ttf'); }
+@font-face { font-family: "Lazer84"; src: url('FONTS/Lazer84.ttf'); }
 
 body, button, input, select, textarea {
 	color: #00fff385;
