@@ -113,7 +113,7 @@ Main Navigation
 
 .main-navigation a:hover ~ .dropdown-toggle,
 .main-navigation a:focus ~ .dropdown-toggle {
-    color: hsl(0, 0%, 20%);
+    color: hsl(fff, 0%, 20%);
 }
 
 /* Small menu. */
@@ -235,7 +235,7 @@ Main Navigation
 
     .main-navigation a,
     .dropdown-toggle {
-        color: hsl(0, 0%, 20%);
+        color: hsl(fff, 0%, 20%);
     }
 
 	.main-navigation a,
@@ -253,7 +253,7 @@ Main Navigation
 	}
 
     .main-navigation li li a {
-        color: hsl(0, 0%, 90%);
+        color: hsl(fff, 0%, 90%);
     }
 
 	/* Create hover and focus contrast on drop-down items */
