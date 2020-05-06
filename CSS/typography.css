@@ -5,14 +5,16 @@ Typography
 @font-face { font-family: "Streamster"; src: url('FONTS/streamster-webfont.woff') format("woff"); }
 @font-face { font-family: "SFAlienEncounters"; src: url('FONTS/sfalienencounters-webfont.woff') format("woff"); }
 @font-face { font-family: "SFAlienEncounters-Italic"; src: url('FONTS/sfalienencounters-italic-webfont.woff') format("woff"); }
-@font-face { font-family: "Lazer84"; src: url('FONTS/Lazer84.ttf'); }
+@font-face { font-family: "Lazer84"; src: url('FONTS/Lazer84.woff') format("woff"); }
+@font-face { font-family: "gameplayed"; src: url('FONTS/gameplayed-vyl7-webfont.woff') format("woff"); }
 
 body, button, input, select, textarea {
 	color: #00fff385;
-	font-family: "Neon 80s", sans-serif;
+	font-family: "gameplayed", sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 	text-shadow: 0 0 6px #30b5a980;
+	letter-spacing: 1.3px;
 }
 
 p {

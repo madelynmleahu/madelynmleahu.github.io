@@ -1,12 +1,7 @@
 /*--------------------------------------------------------------
 Body Styles
 --------------------------------------------------------------*/
-
-li::marker {
-  content: "\003E";
-  animation: blinkingText 1s infinite;
+.content {
+  border: 10px;
+  border-color: hotpink;
 }
-
-@keyframes blinkingText{
-    0%{     color: #000;}
-    100%{   color: transparent;}
