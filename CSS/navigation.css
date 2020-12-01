@@ -103,8 +103,8 @@ Main Navigation
 
 .dropdown-toggle:hover,
 .dropdown-toggle:focus {
-	background-color: #fff;
-	color: #000;
+	background-color: #000;
+	color: #fff;
 }
 
 .dropdown-toggle.toggle-on:after {
@@ -241,7 +241,7 @@ Main Navigation
 	.main-navigation a:hover,
 	.main-navigation a:focus {
 		background: transparent;
-		color: #333;
+		color: white;
 		text-decoration: none;
 		/* outline: solid 1px hotpink; */
 	}

@@ -6,13 +6,14 @@ body {
   width:100%;
   min-width:400px;
   min-height: 600px;
-  overflow: hidden;
+  /*overflow: hidden; */
   opacity: 1.0;
   background: linear-gradient(rgba(10,10,10,.6),rgba(0,0,0,.9)),
   repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
 		url('../IMG/retrobgm.jpg');
   /*background-image: linear-gradient(transparent, black 98%), url("../IMG/retrobgm.jpg"); */
   background-size: cover;
+  background-attachment: fixed;
   transition: background 1.5s linear;
   z-index: 1;
 }
@@ -25,6 +26,7 @@ body {
         url('../IMG/retrowavebg.jpg');
       background-size: cover;
       background-repeat: no-repeat;
+      background-attachment: fixed;
     }
 }
 
@@ -32,6 +34,6 @@ body {
     padding: 2em;
 }
 
-main, footer {
-  padding: 100px;
+main, .footer-area {
+  padding: 70px;
 }

@@ -46,8 +46,20 @@ h4 {
 a, a:hover {
 	text-decoration: none;
 }
+
 a:hover {
 	color: white;
+}
+
+.plus::before {
+	content: "+ ";
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	line-height: 27px;
+	position: relative;
+	top: 0;
+	width: 27px;
 }
 
 .name {
@@ -67,3 +79,92 @@ a:hover {
 }
 
 /*TYPOGRAPHY GLITCH EFFECT */
+
+/*starts lightning effect css*/
+.lightning-effect {
+ position: relative;
+ overflow: hidden;
+ display: inline-block;
+}
+.lightning-effect:before {
+ content: "";
+ width: 20px;
+ position: absolute;
+ top: 0;
+ left: -50px;
+ bottom: 0;
+ z-index: 9;
+ background: -webkit-gradient(
+  linear,
+  left top,
+  right top,
+  from(rgba(255, 105, 180, 0.2)),
+  color-stop(50%, #ff69b4),
+  to(rgba(255, 105, 180, 0.2))
+ );
+ background: linear-gradient(
+  to right,
+  rgba(255, 105, 180, 0.2) 0%,
+  #ff69b4 50%,
+  rgba(255, 105, 180, 0.2) 100%
+ );
+}
+/*Hover*/
+.lightning-effect:hover:before {
+ -webkit-animation: lightning-effect 2s infinite ease-in-out;
+ animation: lightning-effect 2s infinite ease-in-out;
+}
+/*Keyframes*/
+@-webkit-keyframes lightning-effect {
+ 0% {
+  left: -50px;
+  background: -webkit-gradient(
+   linear,
+   left top,
+   right top,
+   from(rgba(255, 105, 180, 0.2)),
+   color-stop(50%, #ff69b4),
+   to(rgba(255, 105, 180, 0.2))
+  );
+  background: linear-gradient(
+   to right,
+   rgba(255, 105, 180, 0.2) 0%,
+   #ff69b4 50%,
+   rgba(255, 105, 180, 0.2) 100%
+  );
+ }
+ 50% {
+  left: 100%;
+ }
+ to {
+  left: -50px;
+  background: 0 0;
+ }
+}
+@keyframes lightning-effect {
+ 0% {
+  left: -50px;
+  background: -webkit-gradient(
+   linear,
+   left top,
+   right top,
+   from(rgba(255, 105, 180, 0.2)),
+   color-stop(50%, #ff69b4),
+   to(rgba(255, 105, 180, 0.2))
+  );
+  background: linear-gradient(
+   to right,
+   rgba(255, 105, 180, 0.2) 0%,
+   #ff69b4 50%,
+   rgba(255, 105, 180, 0.2) 100%
+  );
+ }
+ 50% {
+  left: 100%;
+ }
+ to {
+  left: -50px;
+  background: 0 0;
+ }
+}
+/*ends lightning effect css*/

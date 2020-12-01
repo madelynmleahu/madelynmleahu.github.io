@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="189px" height="189px" viewBox="0 0 189 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>D-Pad copy</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Flat" sketch:type="MSArtboardGroup" transform="translate(-147.000000, -199.000000)">
+            <g id="D-Pad-copy" sketch:type="MSLayerGroup" transform="translate(147.000000, 199.000000)">
+                <path d="M58,58 L58,8.00037538 C58,3.5859394 61.5833386,0 66.0036109,0 L122.996389,0 C127.417239,0 131,3.58189007 131,8.00037538 L131,58 L180.999625,58 C185.414061,58 189,61.5833386 189,66.0036109 L189,122.996389 C189,127.417239 185.41811,131 180.999625,131 L131,131 L131,180.999625 C131,185.414061 127.416661,189 122.996389,189 L66.0036109,189 C61.5827606,189 58,185.41811 58,180.999625 L58,131 L8.00037538,131 C3.5859394,131 0,127.416661 0,122.996389 L0,66.0036109 C0,61.5827606 3.58189007,58 8.00037538,58 L58,58 Z" id="directional-buttons" fill="#4A4A4A" sketch:type="MSShapeGroup"></path>
+                <polygon id="up" fill="#979797" sketch:type="MSShapeGroup" points="95.5 12 111.52147 39.75 79.47853 39.75 "></polygon>
+                <path d="M79,148 L111,148 L95,175 L79,148 Z" id="down" fill="#979797" sketch:type="MSShapeGroup"></path>
+                <path d="M146,80 L178,80 L162,107 L146,80 Z" id="right" fill="#979797" sketch:type="MSShapeGroup" transform="translate(162.000000, 94.000000) rotate(-90.000000) translate(-162.000000, -94.000000) "></path>
+                <path d="M11,80 L43,80 L27,107 L11,80 Z" id="left" fill="#979797" sketch:type="MSShapeGroup" transform="translate(27.000000, 94.000000) rotate(-270.000000) translate(-27.000000, -94.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
