@@ -8,6 +8,133 @@
     <meta name="description" content="Web Portfolio for Madelyn Leahu"/>
     <!-- Stylesheets, inlcuding custom fonts, go here -->
     <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <style>
+
+    #content-gal {
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      position: relative;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-areas: "big-top big-top big-top small-top small-top" "small-middle small-middle big-middle big-middle big-middle" "big-bottom big-bottom big-bottom big-bottom big-bottom";
+    }
+
+    .block {
+      object-fit: cover;
+      width: 100%;
+      max-height: 100%;
+      transition: opacity 0.2s ease-out;
+    }
+
+    .block:hover {
+      transition: opacity 0.2s ease-in;
+      opacity: 1;
+    }
+
+    #b1 {
+      grid-area: big-top;
+    }
+
+    #b2 {
+      grid-area: small-top;
+    }
+
+    #b3 {
+      grid-area: small-middle;
+    }
+
+    #b4 {
+      grid-area: big-middle;
+    }
+
+    .bottom-block {
+      grid-area: big-bottom;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
+    }
+
+#content-gal img {
+	border-radius: 30px;
+  height: auto;
+  width: 100%;
+	padding: 1.5%;
+	object-fit: cover;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#content-gal img:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 30px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+    </style>
 </head>
 
 <body>
@@ -37,24 +164,33 @@
 
 <div class="content">
   <main>
-    <div class="container">
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-      <a class="gallery" href="IMG/retrobg.jpg"><img src="IMG/retrobg.jpg"></a>
-    </div>
-  </main>
+      <section class="cd-intro">
+         <div class="cd-intro-content bouncy">
+            <h1 class="slogan lightning-effect">Seeking Web Development Opportunities -</h1>
+            <p>Contact via email for all inquires</p>
+            <div class="action-wrapper">
+               <a href="#0" class="cd-btn main-action plus">Designs</a>
+               <a href="#0" class="cd-btn plus">Contact</a>
+            </div>
+         </div>
+      </section>
 
-  <footer class="footer-area">
-    <h3>Contact Information</h3>
-    <p>Phone: 555-555-5555</p>
-    <p>Email: email@emailaddress.com</p>
-  </footer>
+      <div id="content-gal">
+            <div id="b1" class="block"><img src="IMG/retrobg.jpg" alt="retro" class="gallery"></div>
+            <div id="b2" class="block"><img src="IMG/retrobg.jpg" alt="retro" class="gallery"></div>
+            <div id="b3" class="block"><img src="IMG/retrobg.jpg" alt="retro" class="gallery"></div>
+            <div id="b4" class="block"><img src="IMG/retrobg.jpg" alt="retro" class="gallery"></div>
+            <div class="bottom-block">
+            <div id="b5" class="block"><img src="IMG/retrobg.jpg" alt="retro" class="gallery"></div>
+            <div id="b6" class="block"><img src="IMG/retrobg.jpg" alt="retro" class="gallery"></div>
+            <div id="b7" class="block"><img src="IMG/retrobg.jpg" alt="retro" class="gallery"></div>
+          </div>
+        </div>
+      <div id="modal" style="display: none;">
+          <span class="close">×</span>
+          <img src="." class="modal-content" alt="." id="modal_img">
+        </div>
+  </main>
 
 </div>
     <!-- Scripts for accessible mobile-first navigation -->
@@ -63,5 +199,25 @@
     <script type="text/javascript" src="JS/pageload.js"></script>
     <script type="text/javascript" src="JS/navigation.js"></script>
     <script type="text/javascript" src="JS/jquery.flashy.js"></script>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById("modal");
+    var modalImg = document.getElementById("modal_img");
+    var captionText = document.getElementById("caption");
+    $('.gallery').click(function () {
+        var img = $(this);
+        modal.style.display = "block";
+        modalImg.src = img.attr('src');
+    });
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+  </script>
 </body>
 </html>
