@@ -6,7 +6,7 @@ The primary stylesheet for Oolith. This sheet pulls in all the components in ord
 @import url('CSS/accessibility.css');
 @import url('CSS/layout.css');
 @import url('CSS/typography.css');
-@import url('CSS/masthead.css');
+@import url('CSS/logo.css');
 @import url('CSS/navigation.css');
 @import url('CSS/images.css');
 @import url('CSS/animation.css');

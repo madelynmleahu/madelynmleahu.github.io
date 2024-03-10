@@ -37,3 +37,8 @@ body {
 main, .footer-area {
   padding: 70px;
 }
+
+.footer-box {
+  background-color: rgba(0,0,0,.3);
+  width: 50%;
+}
