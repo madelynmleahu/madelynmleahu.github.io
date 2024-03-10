@@ -4,6 +4,8 @@ Header styles minus menu
 
 .masthead {
     background: rgba(255, 0, 212, 0.21);
+    border-bottom: solid 5px;
+
 }
 
 @media screen and (min-width: 50em) {
@@ -11,7 +13,6 @@ Header styles minus menu
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: solid 5px;
     }
 }
 .site-title {
